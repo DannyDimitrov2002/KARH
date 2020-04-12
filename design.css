@@ -1,0 +1,197 @@
+body {
+	background-color: black;
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+h3{
+	color: white;
+	border-bottom: 3px solid lightblue;
+	font-family: Ariel, Helvetica, sans-serif;
+	width: 50%;
+	margin-left: 10px; 
+
+}
+p {
+	margin: 0;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+audio {
+	border-color: grey;
+	bottom: 0;
+    filter: sepia(10%) saturate(0%) grayscale(1) contrast(99%) invert(1%);
+    height: 25px;
+}
+
+.allholl{
+	position: absolute;
+	top: 22%;
+	width: 100%;
+}
+
+.home{
+	width: 170px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.centered{
+	color: white;
+	font-family: Ariel, Helvetica, sans-serif;
+	position: absolute;
+	font-size: 30px;
+	top: 11.5%;
+	right: 9%;
+
+}
+
+#music{
+	width: 160px;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	text-align: center;
+}
+
+#songTitle{
+	color: white;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+#mySong{
+	width: 150px;
+	margin-left: 5px;
+}
+
+.holidays{
+	width: 160px;
+	color: white;
+	position: absolute;
+	margin-top: -10px; 
+	margin-left: 12px; 
+}
+
+.holidays p{
+	padding: 4px 0px;
+}
+
+.fas{
+	color: white;
+	display: block;
+	width: 400px;
+	padding: 2px;
+}
+
+.days{
+	color: white;
+	position: absolute;
+	margin-top: -10px; 
+	margin-left: 39%;
+}
+
+.days p{
+	padding: 3px 0px;
+}
+
+#dat{
+	color: white;
+	font-size: 190%;
+	font-family: Ariel, Helvetica, sans-serif;
+	position: absolute;
+	font-weight: bold;
+	margin: 10px 10px;
+
+}
+
+#txt{
+	color: white;
+	margin: 40px 10px;
+	font-size: 800%;
+	position: absolute;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+
+}
+#sec{
+	color: lightblue;
+	font-size: 200%;
+	position: absolute;
+	margin: 65px 340px;
+	font-family: Lucida Console, Helvetica, sans-serif;
+  	font-weight: bold;
+
+}
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.welcomeMassage {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 350px;
+  
+  font: italic bold 5em/1 Bodoni, serif;
+  color: white;
+  text-align: center;
+  
+  animation: fadeIn 30s infinite alternate;
+}
+
+.bpl{
+	position: absolute;
+	bottom: 65px;
+	left: 200px;
+}
+
+.laliga{
+	position: absolute;
+	bottom: 65px;
+	left: 400px;
+}
+
+.wesc{
+	position: absolute;
+	bottom: 65px;
+	left: 600px;
+}
+
+.easc{
+	position: absolute;
+	bottom: 65px;
+	left: 800px;
+}
+ 
+.weatherwidget-io{
+	width: 140px;
+	position: absolute;
+}
+
+#new-york{
+	position: absolute;
+	bottom: -440px;
+	left: 200px;
+}
+
+#moscow{
+	position: absolute;
+	bottom: -260px;
+	left: 340px;
+}
+
+#london{
+	position: absolute;
+	bottom: -80px;
+	left: 480px;
+}
+
+#tokyo{
+	position: absolute;
+	bottom: 100px;
+	left: 620px;
+}

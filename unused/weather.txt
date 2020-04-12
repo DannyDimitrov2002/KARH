@@ -1,0 +1,14 @@
+		<a class="weatherwidget-io" href="https://forecast7.com/en/42d7023d32/sofia/" data-label_1="SOFIA" data-days="3" data-theme="original" data-basecolor="#000000" data-shadow="#4b0707" data-highcolor="#cd3636" data-snowcolor="#ffffff" >SOFIA</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+
+
+
+
+.weatherwidget-io{
+	width: 144px;
+	margin-left: 600px;
+	size: 20px;
+	display: block;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="design.css">
+		<script type="text/javascript" src="mirrorscript.js"></script>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	</head>
+
+
+	<body onload="startTime()">
+		<p id="txt"></p>
+		<p id="sec"></p>
+		<p id="dat"></p>
+
+	<div class="welcomeMassage">
+	  <p id="changeTxt">Hello there!</p>
+	</div>
+		
+
+		<div class="container">
+		  <img class="home" src="house.png" alt="House">
+		  <div class="centered">22°C</div>
+		</div>
+
+		<div class="allholl">
+			<h3>Upcoming Holidays</h3>
+
+			<div class="holidays">
+				<p class="fas fa-calendar-alt" id="hol1"></p>
+				<p class="fas fa-calendar-alt" id="hol2"></p>
+				<p class="fas fa-calendar-alt" id="hol3"></p>
+			</div>
+
+			<div class="days">
+				<p id="left1"></p>
+				<p id="left2"></p>
+				<p id="left3"></p>
+			</div>
+		</div>
+
+		<div id="music">
+			<img id="myPic" src="Music/everything i wanted.png" width="160" height="145">
+			<p id="songTitle">everything i wanted</p>
+			<audio id="mySong" autoplay controls onended="musicFunction()">
+	   			<source src="Music/everything i wanted.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+
+	<div id="sport">
+		<iframe class="bpl" frameborder="0"  scrolling="no" width="200" height="140" src="https://www.fctables.com/england/premier-league/iframe/?type=table&lang_id=2&country=67&template=10&timezone=Europe/Sofia&time=24&po=1&ma=0&wi=0&dr=0&los=0&gf=0&ga=0&gd=0&pts=1&ng=0&form=0&width=200&height=140&font=Verdana&fs=12&lh=22&bg=000000&fc=ffffff&logo=1&tlink=0&scfs=22&scfc=333333&scb=1&sclg=1&teamls=80&ths=1&thb=1&thba=000000&thc=ffffff&bc=000000&hob=000000&hobc=000000&lc=333333&sh=1&hfb=1&hbc=000000&hfc=ffffff"></iframe><div style="text-align:center;"></div><a href="https://www.fctables.com/england/premier-league/" rel="nofollow"></a>
+
+		<iframe class="laliga" frameborder="0"  scrolling="no" width="200" height="140" src="https://www.fctables.com/spain/liga-bbva/iframe/?type=table&lang_id=2&country=201&template=43&team=&timezone=Europe/Sofia&time=24&po=1&ma=0&wi=0&dr=0&los=0&gf=0&ga=0&gd=0&pts=1&ng=0&form=0&width=200&height=140&font=Verdana&fs=12&lh=22&bg=000000&fc=ffffff&logo=1&tlink=0&scfs=22&scfc=333333&scb=1&sclg=1&teamls=80&ths=1&thb=1&thba=000000&thc=ffffff&bc=000000&hob=000000&hobc=000000&lc=333333&sh=1&hfb=1&hbc=000000&hfc=ffffff"></iframe><div style="text-align:center;"></div><a href="https://www.fctables.com/spain/liga-bbva/" rel="nofollow"></a>
+
+		<iframe class="wesc" frameborder="0"  scrolling="no" width="200" height="140" src="https://statsdream.com/basketball/usa/nba/iframe/?type=table&sport=4&country=231&template=824&conference=Western Conference&team=&timezone=Pacific/Midway&time=24&po=1&ma=0&wi=1&los=1&pts=0&ng=0&form=0&width=200&height=140&font=Verdana&fs=12&lh=22&bg=000000&fc=ffffff&logo=1&tlink=0&ths=1&thb=1&thba=000000&thc=ffffff&bc=000000&hob=000000&hobc=000000&lc=000000&sh=1&hfb=1&hbc=000000&hfc=ffffff"></iframe><div style="text-align:center;"></div><a href="https://statsdream.com/basketball/usa/nba/"></a>
+
+		<iframe class="easc"frameborder="0"  scrolling="no" width="200" height="140" src="https://statsdream.com/basketball/usa/nba/iframe/?type=table&sport=4&country=231&template=824&conference=Eastern Conference&team=&timezone=Pacific/Midway&time=24&po=1&ma=0&wi=1&los=1&pts=0&ng=0&form=0&width=200&height=140&font=Verdana&fs=12&lh=22&bg=000000&fc=ffffff&logo=1&tlink=0&ths=1&thb=1&thba=000000&thc=ffffff&bc=000000&hob=000000&hobc=000000&lc=000000&sh=1&hfb=1&hbc=000000&hfc=ffffff"></iframe><div style="text-align:center;"></div><a href="https://statsdream.com/basketball/usa/nba/"></a>
+	</div>
+
+	<div id="weather">
+		<a class="weatherwidget-io" id="new-york" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#000000" >NEW YORK WEATHER</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+		<a class="weatherwidget-io" id="moscow" href="https://forecast7.com/en/55d7637d62/moscow/" data-label_1="MOSCOW" data-label_2="WEATHER" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#000000" >MOSCOW WEATHER</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+		<a class="weatherwidget-io" id="london" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="LONDON" data-label_2="WEATHER" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#000000" >LONDON WEATHER</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+		<a class="weatherwidget-io" id="tokyo" href="https://forecast7.com/en/35d71139d73/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#000000" >TOKYO WEATHER</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+	</div>
+
+
+	</body>
+
+</html>

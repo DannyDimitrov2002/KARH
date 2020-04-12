@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+}
+
+.weatherwidget-io{
+	position: relative;
+	bottom: 65px;
+	height: 100%;
+}
+
+.news{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 200px;
+}
