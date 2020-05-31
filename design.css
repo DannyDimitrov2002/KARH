@@ -43,7 +43,7 @@ audio {
 	font-family: Ariel, Helvetica, sans-serif;
 	position: absolute;
 	font-size: 30px;
-	top: 11.5%;
+	top: 6%;
 	right: 9%;
 
 }
@@ -134,7 +134,7 @@ audio {
   position: relative;
   width: 100%;
   text-align: center;
-  top: 350px;
+  top: 700px;
   
   font: italic bold 5em/1 Bodoni, serif;
   color: white;
@@ -160,12 +160,6 @@ audio {
 	bottom: 65px;
 	left: 600px;
 }
-
-.easc{
-	position: absolute;
-	bottom: 65px;
-	left: 800px;
-}
  
 .weatherwidget-io{
 	width: 140px;
@@ -174,24 +168,24 @@ audio {
 
 #new-york{
 	position: absolute;
-	bottom: -440px;
+	bottom: -1070px;
 	left: 200px;
 }
 
 #moscow{
 	position: absolute;
-	bottom: -260px;
+	bottom: -890px;
 	left: 340px;
 }
 
 #london{
 	position: absolute;
-	bottom: -80px;
+	bottom: -720px;
 	left: 480px;
 }
 
 #tokyo{
 	position: absolute;
-	bottom: 100px;
+	bottom: -540px;
 	left: 620px;
 }

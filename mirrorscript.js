@@ -120,7 +120,7 @@ function startTime() {
   var m = today.getMinutes();
   var s = today.getSeconds();
   month = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
-  day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   ampm = ["AM", "PM"];
   var pmam;
  
@@ -183,7 +183,7 @@ function startTime() {
   document.getElementById('sec').innerHTML =
   s + " " + ampm[pmam];
   document.getElementById('dat').innerHTML =
-  day[d-1] + ", " + e + " " + month[z] +" " + y;
+  day[d] + ", " + e + " " + month[z] +" " + y;
 
   document.getElementById('hol1').innerHTML = " " + alldays[i].Name;
   document.getElementById('hol2').innerHTML = " " + alldays[i + 1].Name;
