@@ -27,7 +27,7 @@ audio {
 
 .allholl{
 	position: absolute;
-	top: 22%;
+	top: 15%;
 	width: 100%;
 }
 
@@ -103,6 +103,7 @@ audio {
 	position: absolute;
 	font-weight: bold;
 	margin: 10px 10px;
+	margin-top: 30px;
 
 }
 
@@ -152,13 +153,13 @@ audio {
 .laliga{
 	position: absolute;
 	bottom: 65px;
-	left: 400px;
+	left: 395px;
 }
 
 .wesc{
 	position: absolute;
 	bottom: 65px;
-	left: 600px;
+	left: 590px;
 }
  
 .weatherwidget-io{
